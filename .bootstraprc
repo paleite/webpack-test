@@ -1,0 +1,30 @@
+// For a full list of options, check https://raw.githubusercontent.com/shakacode/bootstrap-loader/master/examples/css-modules/.bootstraprc
+{
+  "bootstrapVersion": 3,
+
+  "styleLoaders": [
+    "style",
+    "css",
+    "sass"
+  ],
+
+  "styles": {
+    "mixins": true,
+    "normalize": true,
+
+    "scaffolding": true,
+    "forms": true,
+    // "type": true,
+
+    "navs": true,
+    "navbar": true,
+    "breadcrumbs": true,
+
+    "modals": true
+  }
+
+  // "scripts": {
+  //   "alert": true,
+  //   "button": true
+  // }
+}
