@@ -36,3 +36,4 @@ node_modules
 dist/*.js
 stats.json
 webpack.sublime-workspace
+bootstrap variables.txt
