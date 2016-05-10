@@ -21,7 +21,9 @@
     "breadcrumbs": true,
 
     "modals": true
-  }
+  },
+
+  "bootstrapCustomizations": "./src/scss/bootstrap/_variables.scss"
 
   // "scripts": {
   //   "alert": true,
