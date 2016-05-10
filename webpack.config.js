@@ -96,7 +96,7 @@ const common = {
   },
   resolve: {
     extensions: ['', '.js', '.scss'],
-    root: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'node_modules')]
+    modulesDirectories: ['src', 'node_modules', 'bower_components']
   },
   postcss: function () {
     return [autoprefixer]
