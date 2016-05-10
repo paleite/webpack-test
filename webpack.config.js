@@ -1,5 +1,6 @@
 'use strict'
 const webpack = require('webpack')
+const path = require('path')
 const commonsPlugin = new webpack.optimize.CommonsChunkPlugin({
   name: 'common',
   minChunks: 2
@@ -94,7 +95,8 @@ const common = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.scss']
+    extensions: ['', '.js', '.scss'],
+    root: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'node_modules')]
   },
   postcss: function () {
     return [autoprefixer]
@@ -106,6 +108,7 @@ switch (process.env.npm_lifecycle_event) {
     config = merge(common, {})
     break
   default:
+    // Dev
     config = merge(
       common,
       {

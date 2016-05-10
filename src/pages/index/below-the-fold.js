@@ -7,7 +7,7 @@ module.exports = function () {
   $('#webpack').append('this is below the fold')
   // END TODO: Dev only, remove in real project
 
-  require('../../modules/social')()
-  require('../../modules/footer')()
+  require('modules/social')()
+  require('modules/footer')()
   console.log('Loaded footer.js')
 }
