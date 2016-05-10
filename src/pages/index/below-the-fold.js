@@ -8,6 +8,7 @@ module.exports = function () {
   // END TODO: Dev only, remove in real project
 
   require('modules/social')()
+  console.log('Loaded module social')
   require('modules/footer')()
-  console.log('Loaded footer.js')
+  console.log('Loaded module footer')
 }

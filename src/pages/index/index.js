@@ -17,7 +17,7 @@ console.log('Loaded Bootstrap')
 
 $('body').addClass('loading') // TODO: Dev only, remove in real project
 require('modules/header')()
-console.log('Loaded header')
+console.log('Loaded module header')
 
 console.log('Finished loading content above the fold')
 
@@ -25,5 +25,5 @@ require.ensure([
   './below-the-fold'
 ], function (require) {
   require('./below-the-fold')()
-  console.log('Loaded below-the-fold.js')
+  console.log('Loaded everything below-the-fold')
 }, 'below-the-fold')
