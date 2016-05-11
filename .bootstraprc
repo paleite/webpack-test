@@ -14,7 +14,7 @@
 
     "scaffolding": true,
     "forms": true,
-    // "type": true,
+    "type": true,
 
     "navs": true,
     "navbar": true,

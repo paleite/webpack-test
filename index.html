@@ -1,9 +1,36 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <script type="text/javascript" src="common.bundle.js" charset="utf-8"></script>
-        <script type="text/javascript" src="index.bundle.js" charset="utf-8"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webpack test</title>
+</head>
+<body>
+  <header class="header">
+    <p>This is our header</p>
+    <img class="header__image" data-image="test-image.png">
+  </header>
+  <nav class="nav">
+    <div>
+      <p>This is our nav</p>
+    </div>
+    <div class="search">
+      <p>This is our search</p>
+    </div>
+  </nav>
+  <section class="section">
+    <p>This is our section</p>
+  </section>
+  <section class="section">
+    <p>This is our section</p>
+  </section>
+  <section class="section">
+    <p>This is our webpack debugger</p>
+    <div id="webpack"></div>
+  </section>
+  <footer class="footer">
+    <p>This is our footer</p>
+  </footer>
+  <script type="text/javascript" src="common.bundle.js" charset="utf-8"></script>
+  <script type="text/javascript" src="index.bundle.js" charset="utf-8"></script>
+</body>
 </html>
