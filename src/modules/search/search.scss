@@ -1,3 +1,6 @@
+
+$bg-color: #800;
+
 .search {
-  background: lighten(#800, 47%);
+  background: lighten($bg-color, 47%);
 }

@@ -1,3 +1,6 @@
+
+$bg-color: #880;
+
 .nav {
-  background: lighten(#880, 47%);
+  background: lighten($bg-color, 47%);
 }
