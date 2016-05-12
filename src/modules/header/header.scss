@@ -6,6 +6,7 @@ $bg-color: #080;
 
   &__image {
     @include img-responsive;
+
     // max-height: 300px;
     transition: filter 300ms;
 

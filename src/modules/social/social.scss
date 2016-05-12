@@ -1,5 +1,9 @@
 .social {
-  &__image {
-    width: 100px;
+  &__icon {
+    @include icon;
+
+    &--twitter {
+      background-image: url('./twitter.svg');
+    }
   }
 }
