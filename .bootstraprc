@@ -13,14 +13,14 @@
     "normalize": true,
 
     "scaffolding": true,
-    "forms": true,
+    // "forms": true,
     "type": true,
 
-    "navs": true,
-    "navbar": true,
-    "breadcrumbs": true,
+    // "navs": true,
+    // "navbar": true,
+    // "breadcrumbs": true,
 
-    "modals": true
+    // "modals": true
   },
 
   "bootstrapCustomizations": "./src/scss/bootstrap/_variables.scss"
