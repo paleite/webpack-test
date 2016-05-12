@@ -1,0 +1,12 @@
+$formats: eot woff ttf svg;
+$path: '../../fonts/';
+@include font-face('open_sansbold', $path + 'opensans_bold_macroman/OpenSans-Bold-webfont', null, null, $formats);
+@include font-face('open_sansbolditalic', $path + 'opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont', null, null, $formats);
+@include font-face('open_sansextrabold', $path + 'opensans_extrabold_macroman/OpenSans-ExtraBold-webfont', null, null, $formats);
+@include font-face('open_sansextrabolditalic', $path + 'opensans_extrabolditalic_macroman/OpenSans-ExtraBoldItalic-webfont', null, null, $formats);
+@include font-face('open_sansitalic', $path + 'opensans_italic_macroman/OpenSans-Italic-webfont', null, null, $formats);
+@include font-face('open_sanslight', $path + 'opensans_light_macroman/OpenSans-Light-webfont', null, null, $formats);
+@include font-face('open_sanslightitalic', $path + 'opensans_lightitalic_macroman/OpenSans-LightItalic-webfont', null, null, $formats);
+@include font-face('open_sansregular', $path + 'opensans_regular_macroman/OpenSans-Regular-webfont', null, null, $formats);
+@include font-face('open_sanssemibold', $path + 'opensans_semibold_macroman/OpenSans-Semibold-webfont', null, null, $formats);
+@include font-face('open_sanssemibolditalic', $path + 'opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont', null, null, $formats);
