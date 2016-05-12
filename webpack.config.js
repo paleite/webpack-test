@@ -59,7 +59,7 @@ const common = {
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        loaders: ['style', 'css', 'postcss', 'sass']
+        loaders: ['style', 'css', 'postcss', 'sass', 'sass-resources']
       },
       {
         test: /\.js$/,
@@ -115,6 +115,7 @@ const common = {
       }
     }
   },
+  sassResources: './src/scss/_sass-resources.scss',
   resolve: {
     extensions: ['', '.js', '.scss'],
     modulesDirectories: ['src', 'node_modules', 'bower_components']
