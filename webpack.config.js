@@ -59,7 +59,7 @@ const common = {
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        loaders: ['style', 'css', 'postcss', 'sass', 'sass-resources']
+        loaders: ['style', 'css?' + JSON.stringify({discardComments: {removeAll: true}}), 'clean-css', 'postcss', 'sass', 'sass-resources']
       },
       {
         test: /\.js$/,
