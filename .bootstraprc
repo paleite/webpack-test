@@ -24,7 +24,7 @@
     // "modals": true
   },
 
-  "bootstrapCustomizations": "./src/scss/bootstrap/_variables.scss"
+  "bootstrapCustomizations": "./src/scss/_bootstrap-customizations.scss"
 
   // "scripts": {
   //   "alert": true,
