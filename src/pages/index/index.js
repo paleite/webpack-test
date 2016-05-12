@@ -12,8 +12,6 @@
 * - Footer Nav
 * - Footer
 */
-require('bootstrap-loader')
-console.log('Loaded Bootstrap')
 
 $('body').addClass('loading') // TODO: Dev only, remove in real project
 require('modules/header')()
